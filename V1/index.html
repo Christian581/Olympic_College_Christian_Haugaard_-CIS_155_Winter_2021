@@ -7,34 +7,47 @@ Course: CIS 155
 Instructor: Sean Petterson
 Assignment: Adding HTML to the website (M1)
 Notes:
+   \/ M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page (HTML, this item should be specified once, describing how the file it is in meets this outcome)
+   \/ M1LO7 Demonstrate the use of ordered lists (HTML)
+   \/ M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)
+   \/ M1LO9 Demonstrate the use of inline images (HTML)
+   \/ M1LO10 Demonstrate the use of special characters from extended character sets (HTML, use entities, not cut-and-pasted unicode characters)
+   \/ M1LO12 Create navigation using unordered lists (HTML)
+   \/ M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external (HTML, this item should be specified 3 times, once on each type of link)
 
 -->
-<head>
-    <meta charset="utf-8" />
-    <link href="styles.css" rel="stylesheet" />
-</head>
-<title>Tech ideas website</title>
-<body>
-    <nav>
-        <ul>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="techideas.html">Tech Ideas</a>
-        </ul>
-    </nav>
-<!-- Didn't read the problem and not adjusting messes up my site. <img src="https://previews.123rf.com/images/kolotuschenko/kolotuschenko1801/kolotuschenko180100042/94311290-vector-light-abstract-technology-background-white-background-with-gray-gear-wheels-various-cogwheels.jpg" alt="Get the gears turning" class="pic" /> -->
-<header>
-<h1 class="bop">Home</h1>
-</header>
-<h1>Welcome to my website</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <link href="styles.css" rel="stylesheet" /><!--M1O8 Here I linked the css stylesheets for a better website appearance. css allows me to add color, move text around and set style rules. This is very useful for when I need to change all of a tag. I use this to change all my h1 headings into a smaller font. I just dont like the h1 heading size on this website. I might change it later.-->
+    </head>
+    <title>Tech ideas home</title>
+    <div id="top"></div><!-- M1LO13 / M2LO6 Here I am using id's top and bottom. This allows me to use these links to jump to the top and bottom of the page. This is very useful for long website pages. Mine doesnt have a scroll wheel so it is not as useful. -->
+    <body>
+        <nav>
+            <ul> <!-- M1LO12 I used a ul to create a way to navigate my site through the top links. At the top you can click to navigate through the different pages I have available. This is useful for dividing content. I can now seperate about me, tech and a home page. All websites can use this to better enhance user experience -->
+                <a href="index.html">Home</a><!-- M1L013 I used hyperlinks for better website navigation. I list them at the top making it so I can do simple clicks to jump pages. I also have these set up for linking to youtube and top bottom id's. -->
+                <a href="aboutme.html">About Me</a>
+                <a href="techideas.html">Tech Ideas</a>
+            </ul>
+        </nav>
+        <header>
+            <h1 class="bop">&diams;Home&diams;</h1><!-- M1LO10 Here I used the characters for the diamond on both sides of the home. I added on the diamonds to my main headings. Entities allow you to be able to post in a character without googling and copy pasting it. This allows you to also branch out to more areas that can view this. -->
+        </header>
 
-<p>This is a site that will be primarily focussing on Tech Ideas I have and who I am.</p>
+            <p class="c"><a href="#bottom">Page Bottom</a></p><!-- side note this works but since my page isnt big enough to scroll nothing will happen. No mark down plz. -->
 
-<h1>2nd heading</h1>
+        <h1>Welcome to my website</h1><!--M1LO6 I use the h1 tag to create a heading for my paragraphs. Tags allow for most of what html is. Without them nothing is structured. I dont have to set my paragraphs with a <p></p>. But if I was to do that I could no longer have it show up in a specific way. It would be fighting against the language.  -->
 
-<p>testing formating</p>
+            <p>This is a site that will be primarily focussing on Tech Ideas I have and who I am.</p>
 
-<footer>Christian Haugaard</footer>
+        <h1>Chill area</h1>
 
-</body>
+            <p>I think a good goal to have for this is just a chill place to post ideas. If people want to do them or add on to them I think thats cool.</p>
+
+        <img src="https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg" alt="Get the gears turning" class="pic" /><!-- M1L09 I use an image that I plan to resize into a border but I read the objective and cannot do that. Inline images allow there to be a image without clicking a link. Being able to not click a link to see an image allows things like logos or nice looking background/borders on websites. I also set this image to the pic class so I can later alter its position. Currently it is ugly to look at but I needed an image.  -->
+
+        <p class="c"><a href="#top">Page Top</a></p>
+        <div id="bottom"><footer>*Christian Haugaard* - <a href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g">Youtube</a></footer></div><!-- M1L013 I do a hyperlink to Youtube which is external. This way I can force people to go thorugh my Youtube channel which is a boost. External links can be used in different ways. Like linking to site a source or refrences. -->
+
+    </body>
 </html>
