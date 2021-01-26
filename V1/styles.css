@@ -82,13 +82,13 @@ nav a{
 
 /* M2LO11 Here I used a pseudo class selector to highlight the links on top I am hovering in turquoise. 
 This gives my site a better feel just being able to see change as you go. Making sure your going to click what you think you are. */
-nav > ul > a:hover{
+nav > ul > li > a:hover{
     color:turquoise;
 }
 
 /* M2LO14 This is a good example of progressive enhancement. Progressive enhancement is multiple strong layers coming together for a better end result. 
 Here I am using HTML to make a ul. In CSS I have now centered the list and added a black background around the list. These languages building off of eachother is the strength of progressive enhancement  */
-nav > ul{
+nav > ul > li{
     text-align: center;
     background-color:black;
 }
