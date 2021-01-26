@@ -119,10 +119,10 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-decoration: none;
 }
 
-.About{
-    text-align: left;
+.loop{
+    text-align: center;
+    margin-right: 340px;
 }
-
 /* I plan on adding this in after Module 3.
  I didn't read the criteria and I don't want to erase this.
 .pic{
