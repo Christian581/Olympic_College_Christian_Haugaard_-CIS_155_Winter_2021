@@ -14,8 +14,8 @@ Notes:
    \/ M1LO10 Demonstrate the use of special characters from extended character sets (HTML, use entities, not cut-and-pasted unicode characters)
    \/ M1LO12 Create navigation using unordered lists (HTML)
    \/ M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external (HTML, this item should be specified 3 times, once on each type of link)
+    -->
 
--->
     <head>
         <meta charset="UTF-8" />
         <link href="styles.css" rel="stylesheet" /><!--M1O8 Here I linked the css stylesheets for a better website appearance. css allows me to add color, move text around and set style rules. This is very useful for when I need to change all of a tag. I use this to change all my h1 headings into a smaller font. I just dont like the h1 heading size on this website. I might change it later.-->
@@ -24,15 +24,15 @@ Notes:
 
     <div id="top"></div><!-- M1LO13 / M2LO6 Here I am using id's top and bottom. This allows me to use these links to jump to the top and bottom of the page. This is very useful for long website pages. Mine doesnt have a scroll wheel so it is not as useful. -->
     
-    <body>
-        <nav>
-            <ul> <!-- M1LO12 I used a ul to create a way to navigate my site through the top links. At the top you can click to navigate through the different pages I have available. This is useful for dividing content. I can now seperate about me, tech and a home page. All websites can use this to better enhance user experience -->
-                <a href="index.html">Home</a><!-- M1L013 I used hyperlinks for better website navigation. I list them at the top making it so I can do simple clicks to jump pages. I also have these set up for linking to youtube and top bottom id's. -->
-                <a href="aboutme.html">About Me</a>
-                <a href="techideas.html">Tech Ideas</a>
-            </ul>
-        </nav>
+    <body><!-- M1L013 I used hyperlinks for better website navigation. I list them at the top making it so I can do simple clicks to jump pages. I also have these set up for linking to youtube and top bottom id's. -->
         <header>
+            <nav>
+                <ul> <!-- M1LO12 I used a ul to create a way to navigate my site through the top links. At the top you can click to navigate through the different pages I have available. This is useful for dividing content. I can now seperate about me, tech and a home page. All websites can use this to better enhance user experience -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="techideas.html">Tech Ideas</a></li>
+                </ul>
+            </nav>
             <h1 class="bop">&diams;Home&diams;</h1><!-- M1LO10 Here I used the characters for the diamond on both sides of the home. I added on the diamonds to my main headings. Entities allow you to be able to post in a character without googling and copy pasting it. This allows you to also branch out to more areas that can view this. -->
         </header>
 
@@ -49,6 +49,7 @@ Notes:
         <img src="https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg" alt="Get the gears turning" class="pic" /><!-- M1L09 I use an image that I plan to resize into a border but I read the objective and cannot do that. Inline images allow there to be a image without clicking a link. Being able to not click a link to see an image allows things like logos or nice looking background/borders on websites. I also set this image to the pic class so I can later alter its position. Currently it is ugly to look at but I needed an image.  -->
 
         <p class="c"><a href="#top">Page Top</a></p>
+       
         <div id="bottom"><footer>*Christian Haugaard* - <a href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g">Youtube</a></footer></div><!-- M1L013 I do a hyperlink to Youtube which is external. This way I can force people to go thorugh my Youtube channel which is a boost. External links can be used in different ways. Like linking to site a source or refrences. -->
     </body>
 </html>
