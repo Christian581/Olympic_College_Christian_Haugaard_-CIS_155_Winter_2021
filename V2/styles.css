@@ -116,7 +116,6 @@ body > nav a{
 
 .c{
     text-align: center;
-    margin-right: 360px;
 }
 
 footer{
@@ -132,11 +131,6 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-align: center;
 }
 
-.loop{
-    text-align: center;
-    margin-right: 340px;
-}
-
 div.content1 h1, p{
     float: left;
     margin-left: 200px;
@@ -147,12 +141,11 @@ div.content2 h1, p{
     margin-right: 200px;
 }
 
-
 img{
     display: block;
     height: 400px;
     width: 400px;
-    margin: 50px 50px 50px 50px;
+    margin: 30px 30px 30px 30px;
 }
 
 .pic1{
