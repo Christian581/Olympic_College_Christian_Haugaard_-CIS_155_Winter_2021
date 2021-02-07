@@ -145,7 +145,12 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-align: center;
 }
 
-section{
+section#column1{
+    display: block;
+    width: 100%;
+}
+
+section#column2{
     display: block;
     width: 100%;
 }
