@@ -70,6 +70,7 @@ This allowed me to list all of the elements I wanted the rule applied to. */
 h1, p{
     text-align: left;
     font-size: larger;
+    margin-left: 130px;
 }
 
 /* M2LO3 Here I used style precedence. This p takes control over the other rule I set for P. Both rules share a margin and font rule. 
