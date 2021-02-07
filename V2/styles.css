@@ -30,6 +30,13 @@ body{
     margin-right: auto;
     background-color:cornsilk;
 }
+
+header, ul, nav, li, a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 /* M2LO13 Here I am using a style rule to change the font that appears on screen. Without CSS the default font would be shown. 
 With CSS however I can pick which one I want. I typed in A and it let me auto complete arial, etc....   */
 
