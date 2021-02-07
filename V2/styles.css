@@ -143,12 +143,12 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 }
 
 .content1 h1, p{
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .content2 p{
     float: right;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .content2 h1{
