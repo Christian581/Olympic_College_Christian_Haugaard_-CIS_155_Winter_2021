@@ -70,15 +70,13 @@ This can be useful for when you want your text in one area. */
 This allowed me to list all of the elements I wanted the rule applied to. */
 h1, p{
     text-align: left;
-    margin-left: 340px;
+    margin-left: 250px;
     font-size: larger;
 }
 
 /* M2LO3 Here I used style precedence. This p takes control over the other rule I set for P. Both rules share a margin and font rule. 
 Only the bottom one is applied because it is the last one to change the p element. This rule allows the text to be pushed 360px right and have a medium font and different font type.  */
-p{ 
-    margin-left: 360px;
-    margin-right: 500px;
+p{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -105,10 +103,15 @@ nav > ul > li{
     background-color:black;
 }
 
+nav > ol > li{
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
 /* M2LO5 Here I made the nav a element in body align to the right side. I am matching the child to the parent elemeent. 
 I can use this to select certain child elements from the parents. This also helps me be specific for writing a rule. */
 body > nav a{
-    text-align: right;
+    text-align: center;
 }
 
 .c{
@@ -136,10 +139,12 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 
 div.content1 h1, p{
     float: left;
+    margin-left: 200px;
 }
 
 div.content2 h1, p{
     float: right;
+    margin-right: 200px;
 }
 
 
