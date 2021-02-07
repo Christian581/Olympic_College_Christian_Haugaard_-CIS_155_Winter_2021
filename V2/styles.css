@@ -7,10 +7,8 @@ Instructor: Sean Petterson
 Assignment: V2
 Notes:
 
+
 */
-
-/* M3LO1 CSS Reset style rules */
-
 
 
 /* M2LO15 used cornsilk to add a background color to my site. This allows me to add colors to text and background. 
@@ -116,3 +114,11 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-align: center;
     margin-right: 340px;
 }
+/* I plan on adding this in after Module 3.
+ I didn't read the criteria and I don't want to erase this.
+.pic{
+    height: 200px;
+    width: 2000px;
+    margin: 10px 100px 10px 300px;
+}
+*/
