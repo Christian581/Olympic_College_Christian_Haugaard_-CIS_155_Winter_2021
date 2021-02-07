@@ -119,19 +119,29 @@ body > nav a{
 footer{
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
 }
 
 /* M2LO7 Here I used the attribute selector a href. This allowed me to set the color to black. I didnt like the purple color and I think this looks better. */
 a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     color:black;
     text-decoration: none;
+    text-align: center;
 }
 
 .loop{
     text-align: center;
     margin-right: 340px;
 }
+
+div.content1 h1, p{
+    float: left;
+}
+
+div.content2 h1, p{
+    float: right;
+}
+
 
 img{
     display: block;
