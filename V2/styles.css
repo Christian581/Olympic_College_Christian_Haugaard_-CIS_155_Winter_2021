@@ -9,6 +9,13 @@ Notes:
 
 */
 
+header, footer, article, aside, h1, ul, div{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
 
 /* M2LO15 used cornsilk to add a background color to my site. This allows me to add colors to text and background. 
 Applying colors through css is easy and efficent. It allows me to add colors to a specific id, element or tag. 
