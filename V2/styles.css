@@ -129,6 +129,8 @@ body > nav a{
 }
 
 footer{
+    text-decoration: none;
+    color: black;
     position: absolute;
     bottom: 10px;
     margin-left: auto;
@@ -151,13 +153,13 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 }
 
 .content2 p{
-    float: right;
+    text-align: right;
     margin-right: 100px;
 }
 
 .content2 h1{
-    float: right;
-    margin-right: 650px;
+    text-align: right;
+    margin-right: 500px;
 }
 
 img{
