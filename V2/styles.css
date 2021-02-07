@@ -86,10 +86,9 @@ p{
 nav a{
     color: white;
     display: block;
-    width: 100%;
     text-decoration: none;
     margin: 20px 20px 20px 20px;
-    padding-top: 50px;
+    text-align: center;
 }
 
 
@@ -104,11 +103,6 @@ Here I am using HTML to make a ul. In CSS I have now centered the list and added
 nav > ul > li{
     text-align: center;
     background-color:black;
-}
-
-nav > ol > li{
-    list-style-type: square;
-    margin-left: 360px;
 }
 
 /* M2LO5 Here I made the nav a element in body align to the right side. I am matching the child to the parent elemeent. 
