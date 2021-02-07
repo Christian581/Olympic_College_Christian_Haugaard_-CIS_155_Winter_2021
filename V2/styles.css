@@ -99,9 +99,6 @@ Here I am using HTML to make a ul. In CSS I have now centered the list and added
 nav > ul > li{
     text-align: center;
     background-color:black;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 nav > ol > li{
@@ -170,7 +167,7 @@ img{
 .pic1{
     margin-left: auto;
     margin-right: 100px;
-    float: right;
+    text-align: center;
 }
 
 .pic2{
