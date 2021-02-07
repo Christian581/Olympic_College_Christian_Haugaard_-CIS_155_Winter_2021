@@ -129,7 +129,6 @@ footer{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
     bottom: 10px;
 }
 
@@ -155,7 +154,6 @@ img{
     height: 400px;
     width: 400px;
     margin: 30px 30px 30px 30px;
-    float: right;
 }
 
 .pic1{
