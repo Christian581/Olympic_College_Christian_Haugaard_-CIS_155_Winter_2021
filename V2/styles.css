@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* This is the css section of my website 
+Name: Christian Haugaard
+Date: 1/24
+Course: CIS 155
+Instructor: Sean Petterson
+Assignment: Adding CSS to the website (M2)
+Notes:
+   \/ M2LO3 Demonstrate style precedence and inheritance in CSS (CSS, this item should be specified 2 times, once where precedence is applied and once where inheritance is applied; see 2-3d Style Specificity and Precedence, and 2-3e Style Inheritance)
+   \/ M2LO4 Demonstrate external, embedded, and inline styles (HTML, this item should be specified 2 times, once each for embedded and inline styles; note external was taken care of with M1LO8; see 2-3b Embedded Style Sheets, and 2-3c Inline Styles)
+   \/ M2LO5 Demonstrate contextual selectors (CSS, specify 2 times, showing two different types of contextual selectors as shown in Figure 2-12, Contextual Selectors, of the textbook)
+   \/ M2LO6  Demonstrate a CSS id and a CSS class selector (CSS, specify 2 times, show a use of id and a use of class, see 2-9b Attribute selectors)
+   \/ M2LO7 Demonstrate a CSS attribute selector other than class or id (CSS, specify 1 time, see 2-9b Attribute selectors)
+   \/ M2LO11 Demonstrate a pseudo-classes and a pseudo-element selector (CSS, specify 2 times, show one pseudo-class and one pseudo-element, see 2-18 Using Pseudo-Classes and Pseudo-Elements)
+   \/ M2LO12 Demonstrate how CSS can change presentation of page elements (CSS, these are styles that impact page elements rather than impacting text on the page)
+   \/ M2LO13 Demonstrate how CSS can change presentation of textual elements (CSS, these are styles that impact text that is rendered on the page)
+   \/ M2LO14 Demonstrate and explain the use of progressive enhancement in CSS (CSS, see 2-6 Employing Progressive Enhancement)
+   \/ M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)
+
+*/
+
+
+/* M2LO15 used cornsilk to add a background color to my site. This allows me to add colors to text and background. 
+Applying colors through css is easy and efficent. It allows me to add colors to a specific id, element or tag. 
+In other parts of this code I use colors to enhance borders. */
+html{
+    background-color:cornsilk;
+}
+
+/* M2LO13 Here I am using a style rule to change the font that appears on screen. Without CSS the default font would be shown. 
+With CSS however I can pick which one I want. I typed in A and it let me auto complete arial, etc....   */
+
+/* M2LO6 Here I set up a class for my heading. Since they all are h1's I made this h1 into a class and made a style rule for that class. 
+This saved me time then to set other to h2 or a different size. */
+.bop{
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+}
+
+
+/* M2LO11 Here I used a Pseudo element over the h1 element. This affected every first line of my h1 headings. 
+This made every h1 text italiced. I think this was more efficent because I would have had to seperate the rules for p and h1. 
+I wrote them together and theres no going back now. */
+h1::first-line{
+    font-style: italic;
+}
+
+
+/* M2LO12 Here I used CSS to alter the h1 and p elements. I aligned the text left, made the font larger and added a margin rule of 340 px. 
+This got me to a point where I liked where the text showed up.  */
+
+/* M2LO3 Here I used CSS inheritence. This rule sets text alignment to the left. This works together with the other p rule. 
+This is because they do not conflict on this rule. Using both elements set here allows me to add to both not not copy pasting 2 rules. 
+This can be useful for when you want your text in one area. */
+
+/* M2LO5 Here I used a different type of contextual selector. Instead of the > to form a parent and child I used a ,. 
+This allowed me to list all of the elements I wanted the rule applied to. */
+h1, p{
+    text-align: left;
+    margin-left: 340px;
+    font-size: larger;
+}
+
+/* M2LO3 Here I used style precedence. This p takes control over the other rule I set for P. Both rules share a margin and font rule. 
+Only the bottom one is applied because it is the last one to change the p element. This rule allows the text to be pushed 360px right and have a medium font and different font type.  */
+p{ 
+    margin-left: 360px;
+    margin-right: 500px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px 20px 20px 20px;
+    padding-top: 50px;
+}
+
+
+/* M2LO11 Here I used a pseudo class selector to highlight the links on top I am hovering in turquoise. 
+This gives my site a better feel just being able to see change as you go. Making sure your going to click what you think you are. */
+nav > ul > li > a:hover{
+    color:turquoise;
+}
+
+/* M2LO14 This is a good example of progressive enhancement. Progressive enhancement is multiple strong layers coming together for a better end result. 
+Here I am using HTML to make a ul. In CSS I have now centered the list and added a black background around the list. These languages building off of eachother is the strength of progressive enhancement  */
+nav > ul > li{
+    text-align: center;
+    background-color:black;
+}
+
+nav > ol > li{
+    list-style-type: square;
+    margin-left: 360px;
+}
+
+/* M2LO5 Here I made the nav a element in body align to the right side. I am matching the child to the parent elemeent. 
+I can use this to select certain child elements from the parents. This also helps me be specific for writing a rule. */
+body > nav a{
+    text-align: right;
+}
+
+.c{
+    text-align: center;
+    margin-right: 360px;
+}
+
+footer{
+    text-align: center;
+}
+
+/* M2LO7 Here I used the attribute selector a href. This allowed me to set the color to black. I didnt like the purple color and I think this looks better. */
+a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
+    color:black;
+    text-decoration: none;
+}
+
+.loop{
+    text-align: center;
+    margin-right: 340px;
+}
+/* I plan on adding this in after Module 3.
+ I didn't read the criteria and I don't want to erase this.
+.pic{
+    height: 200px;
+    width: 2000px;
+    margin: 10px 100px 10px 300px;
+}
+*/
