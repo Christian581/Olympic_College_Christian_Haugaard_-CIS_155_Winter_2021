@@ -135,14 +135,16 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 }
 
 
-.pic1{
+img{
+    display: block;
     height: 200px;
     width: 300px;
+}
+
+.pic1{
     float: right;
 }
 
 .pic2{
-    height: 200px;
-    width: 300px;
     float: left;
 }
