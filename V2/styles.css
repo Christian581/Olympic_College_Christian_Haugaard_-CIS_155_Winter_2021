@@ -145,16 +145,17 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-align: center;
 }
 
-.content2 p{
-    clear: right;
-    text-align: right;
-    margin-right: 100px;
+section{
+    display: block;
+    width: 100%;
 }
 
-.content2 h1{
-    clear: right;
-    text-align: right;
-    margin-right: 500px;
+section#column2 img{
+    float: left;
+}
+
+section#column1 img{
+    float: right;
 }
 
 img{
