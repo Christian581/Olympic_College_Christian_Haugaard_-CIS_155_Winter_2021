@@ -18,6 +18,11 @@ html{
     background-color:cornsilk;
 }
 
+body{
+    background-image: url(https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg);
+    background-repeat: round;
+}
+
 /* M2LO13 Here I am using a style rule to change the font that appears on screen. Without CSS the default font would be shown. 
 With CSS however I can pick which one I want. I typed in A and it let me auto complete arial, etc....   */
 
