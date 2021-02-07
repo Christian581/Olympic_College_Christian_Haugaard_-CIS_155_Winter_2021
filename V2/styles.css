@@ -148,6 +148,7 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 section{
     display: block;
     width: 100%;
+    clear: both;
 }
 
 section#column2 img{
