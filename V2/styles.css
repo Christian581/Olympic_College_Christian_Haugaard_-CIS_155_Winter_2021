@@ -145,18 +145,22 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-align: center;
 }
 
-section{
+section#column1{
     display: block;
     width: 100%;
-    clear: both;
 }
 
-section#column2 img{
-    float: left;
+section#column2{
+    display: block;
+    width: 100%;
 }
 
 section#column1 img{
     float: right;
+}
+
+section#column2 img{
+    float: left;
 }
 
 img{
