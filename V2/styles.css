@@ -99,6 +99,7 @@ Here I am using HTML to make a ul. In CSS I have now centered the list and added
 nav > ul > li{
     text-align: center;
     background-color:black;
+    list-style: none;
 }
 
 nav > ol > li{
