@@ -146,11 +146,13 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 }
 
 .content2 p{
+    clear: right;
     text-align: right;
     margin-right: 100px;
 }
 
 .content2 h1{
+    clear: right;
     text-align: right;
     margin-right: 500px;
 }
@@ -162,11 +164,13 @@ img{
 }
 
 .pic1{
-    margin-right: 20px;
+    margin-right: 150px;
     float: right;
 }
 
 .pic2{
     float: left;
-    margin-left: 20px;
+    margin-left: 150px;
+    clear: left;
+    margin-top: 100px;
 }
