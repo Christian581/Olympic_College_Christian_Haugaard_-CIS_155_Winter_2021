@@ -69,7 +69,6 @@ This can be useful for when you want your text in one area. */
 This allowed me to list all of the elements I wanted the rule applied to. */
 h1, p{
     text-align: left;
-    margin-left: 250px;
     font-size: larger;
 }
 
@@ -78,6 +77,7 @@ Only the bottom one is applied because it is the last one to change the p elemen
 p{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 250px;
 }
 
 nav a{
