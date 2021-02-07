@@ -9,7 +9,7 @@ Notes:
 
 */
 
-header, footer, article, aside, h1, ul, div{
+header, footer, article, aside, h1, ul, div, ol, p, img, body, li, nav{
     display: block;
     margin: 0;
     padding: 0;
