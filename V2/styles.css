@@ -148,7 +148,6 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 section{
     display: block;
     width: 100%;
-    clear: both;
 }
 
 section#column2 img{
@@ -157,6 +156,11 @@ section#column2 img{
 
 section#column1 img{
     float: right;
+}
+
+section h1, p{
+    text-align: right;
+    clear: right;
 }
 
 img{
