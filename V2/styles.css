@@ -120,9 +120,13 @@ body > nav a{
 
 .top{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     bottom: 30px;
+}
+
+.bottom{
+    text-align: center;
+    position: absolute;
+    top: 100;
 }
 
 footer{
@@ -158,6 +162,7 @@ img{
     height: 400px;
     width: 400px;
     margin: 30px 30px 30px 30px;
+    position: relative;
 }
 /*
 .pic1{
