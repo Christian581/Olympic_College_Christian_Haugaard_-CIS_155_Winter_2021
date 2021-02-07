@@ -165,9 +165,12 @@ img{
 }
 
 .pic1{
+    margin-left: auto;
+    margin-right: 100px;
     float: right;
 }
 
 .pic2{
     float: left;
+    margin-left: 100;
 }
