@@ -23,7 +23,6 @@ Applying colors through css is easy and efficent. It allows me to add colors to 
 In other parts of this code I use colors to enhance borders. */
 html{
     background-color:cornsilk;
-    background-image: url(https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg);
 }
 
 /* M2LO13 Here I am using a style rule to change the font that appears on screen. Without CSS the default font would be shown. 
