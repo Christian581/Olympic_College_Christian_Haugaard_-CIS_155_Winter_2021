@@ -47,7 +47,6 @@ This saved me time then to set other to h2 or a different size. */
     text-align: center;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 0px;
 }
 
 
@@ -104,7 +103,8 @@ nav > ul > li{
 }
 
 nav > ol > li{
-    text-align: center;
+    list-style-type: square;
+    margin-left: 250px;
     margin: 20px 20px 20px 20px;
 }
 
