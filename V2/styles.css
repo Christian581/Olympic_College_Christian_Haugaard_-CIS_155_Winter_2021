@@ -130,10 +130,9 @@ body > nav a{
 
 footer{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    position: absolute;
     bottom: 10px;
+    margin-left: 50%;
 }
 
 /* M2LO7 Here I used the attribute selector a href. This allowed me to set the color to black. I didnt like the purple color and I think this looks better. */
