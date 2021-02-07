@@ -142,8 +142,14 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-align: center;
 }
 
-.content1 h1, p{
+.content1 h1{
+    margin-left: 90px;
+    float: left;
+}
+
+.content1 p{
     margin-left: 100px;
+    float: left;
 }
 
 .content2 p{
@@ -153,7 +159,7 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
 
 .content2 h1{
     float: right;
-    margin-right: 600px;
+    margin-right: 650px;
 }
 
 img{
