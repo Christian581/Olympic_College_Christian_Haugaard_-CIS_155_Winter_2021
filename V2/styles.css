@@ -11,6 +11,13 @@ Notes:
 */
 
 
+
+.c, .top, .bottom, .bop, nav a, nav > ul > li{
+    text-align: center;
+}
+
+
+
 /* M2LO15 used cornsilk to add a background color to my site. This allows me to add colors to text and background. 
 Applying colors through css is easy and efficent. It allows me to add colors to a specific id, element or tag. 
 In other parts of this code I use colors to enhance borders. */
@@ -44,7 +51,6 @@ With CSS however I can pick which one I want. I typed in A and it let me auto co
 /* M2LO6 Here I set up a class for my heading. Since they all are h1's I made this h1 into a class and made a style rule for that class. 
 This saved me time then to set other to h2 or a different size. */
 .bop{
-    text-align: center;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -85,7 +91,6 @@ nav a{
     color: white;
     text-decoration: none;
     margin: 20px 20px 20px 20px;
-    text-align: center;
 }
 
 
@@ -98,7 +103,6 @@ nav > ul > li > a:hover{
 /* M2LO14 This is a good example of progressive enhancement. Progressive enhancement is multiple strong layers coming together for a better end result. 
 Here I am using HTML to make a ul. In CSS I have now centered the list and added a black background around the list. These languages building off of eachother is the strength of progressive enhancement  */
 nav > ul > li{
-    text-align: center;
     background-color:black;
 }
 
@@ -114,20 +118,6 @@ body > nav a{
     text-align: center;
 }
 
-/* change to different class*/
-.c{
-    text-align: center;
-}
-
-.top{
-    text-align: center;
-    bottom: 30px;
-}
-
-.bottom{
-    text-align: center;
-    top: 100;
-}
 
 footer{
     text-decoration: none;
@@ -158,11 +148,6 @@ section#column1 img{
 
 section#column2 img{
     float: left;
-}
-
-section#column2 h1, p{
-    float: right;
-    clear: right;
 }
 
 img{
