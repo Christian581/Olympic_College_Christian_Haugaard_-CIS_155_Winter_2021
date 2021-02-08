@@ -163,6 +163,11 @@ section#column2 img{
     float: left;
 }
 
+section#column2 h1, p{
+    float: right;
+    clear: right;
+}
+
 img{
     display: block;
     height: 400px;
