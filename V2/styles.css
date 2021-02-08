@@ -20,7 +20,7 @@ In other parts of this code I use colors to enhance borders. */
 
 /* M3LO9 I fixed my background image because I dont want obsessive repeats its distracts from the content */
 
-/* M3LO11  */
+/* M4LO2 Here I use a background image */
 html{
     height: 100%;
     background-image: url(https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg);
@@ -38,7 +38,7 @@ body{
     background-color:cornsilk;
 }
 
-/* M3LO10 This allows my content to stretch without running off of the page instead it will add a scroll wheel if needed */
+/* M3LO10 This allows my content to stretch without running off of the page instead it will add a scroll wheel when needed */
 aside{
     overflow: auto;
 }
@@ -80,6 +80,11 @@ h1, p{
     text-align: left;
     font-size: larger;
     margin-left: 130px;
+}
+
+/* M4LO5 Adds a gray shadow to the heading texts. This pops the text and makes it look clean. */
+h1{
+    text-shadow: gray 5px 3px 5px;
 }
 
 /* M2LO3 Here I used style precedence. This p takes control over the other rule I set for P. Both rules share a margin and font rule. 
@@ -171,10 +176,12 @@ section#column2 img{
     float: left;
 }
 
+/* M4LO6 Opacity */
 img{
     display: block;
     height: 400px;
     width: 400px;
+    opacity: 0.6;
 }
 
 .pic1{
@@ -189,4 +196,13 @@ img{
     margin-left: 150px;
     clear: left;
     margin-top: 100px;
+}
+
+figure{
+    display: block;
+}
+
+figure > p{
+    background: gray;
+    
 }
