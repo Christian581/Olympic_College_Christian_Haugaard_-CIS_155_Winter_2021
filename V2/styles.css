@@ -12,7 +12,7 @@ Notes:
 
 
 
-
+/* M3LO1 CSS Reset Style Rule */
 a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"], .bop, nav a, ul, li, .c, .top, .bottom, footer{
     text-align: center;
     display: block;
@@ -54,6 +54,8 @@ This saved me time then to set other to h2 or a different size. */
     text-align: center;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 15px;
 }
 
 
@@ -136,13 +138,12 @@ body > nav a{
     top: 100;
 }
 
+/* M3LO8A I used absolute positioning to hold the footer to the bottom of the page. */
 footer{
     text-decoration: none;
     color: black;
     position: absolute;
-    bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 600px;
 }
 
 /* M2LO7 Here I used the attribute selector a href. This allowed me to set the color to black. I didnt like the purple color and I think this looks better. */
@@ -152,6 +153,7 @@ a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"]{
     text-align: center;
 }
 
+/* M3LO6 This is my first section that I used with section2 to make formatting on my page easier */
 section#column1{
     display: block;
     width: 100%;
@@ -181,6 +183,8 @@ img{
     float: right;
 }
 
+/* M3LO2 Floats to the left I set this section to display after the first one making this pop up next at the start. */
+/* M3LO3 Clear float waits till the section is clear then places the image */
 .pic2{
     float: left;
     margin-left: 150px;
