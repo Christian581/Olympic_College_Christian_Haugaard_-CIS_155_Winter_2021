@@ -11,6 +11,13 @@ Notes:
 */
 
 
+
+
+a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"], .bop, nav a, ul, li, .c, .top, .bottom, footer{
+    text-align: center;
+    display: block;
+}
+
 /* M2LO15 used cornsilk to add a background color to my site. This allows me to add colors to text and background. 
 Applying colors through css is easy and efficent. It allows me to add colors to a specific id, element or tag. 
 In other parts of this code I use colors to enhance borders. */
