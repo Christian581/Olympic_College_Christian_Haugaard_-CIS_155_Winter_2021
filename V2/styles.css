@@ -50,12 +50,14 @@ With CSS however I can pick which one I want. I typed in A and it let me auto co
 
 /* M2LO6 Here I set up a class for my heading. Since they all are h1's I made this h1 into a class and made a style rule for that class. 
 This saved me time then to set other to h2 or a different size. */
+
+
 .bop{
     text-align: center;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 15px;
+    right: 15px;
 }
 
 
