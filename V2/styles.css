@@ -188,6 +188,7 @@ section#column1 img{
     top: -90px;
 }
 
+/* M4LO8 I rotated the image -90deg so that the gears would be turning different ways */
 section#column2 img{
     float: left;
     transform: rotate(-90deg);
