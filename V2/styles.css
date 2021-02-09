@@ -28,6 +28,11 @@ html{
     background-attachment: fixed;
 }
 
+header{
+    border-radius: 40px 40px;
+}
+/* M4LO3 I added a curved border on 3 sides */
+/* M4LO4 I used a gradient to add 3 color transitions to my page */
 body{
     min-height: 100%;
     min-width: 1000px;
@@ -36,6 +41,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color:cornsilk;
+    background: linear-gradient(cornsilk, white, cornsilk);
+    border-radius: 40px 40px;
 }
 
 /* M3LO10 This allows my content to stretch without running off of the page instead it will add a scroll wheel when needed */
@@ -55,7 +62,7 @@ This saved me time then to set other to h2 or a different size. */
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    right: 45px;
+    right: 35px;
 }
 
 
@@ -96,6 +103,8 @@ p{
 }
 
 nav a{
+    display: block;
+    width: 100%;
     color: white;
     text-decoration: none;
     margin: 20px 20px 20px 20px;
@@ -113,6 +122,7 @@ Here I am using HTML to make a ul. In CSS I have now centered the list and added
 nav > ul > li{
     text-align: center;
     background-color:black;
+    
 }
 
 nav > ol > li{
@@ -147,7 +157,9 @@ footer{
     text-decoration: none;
     color: black;
     position: absolute;
+    bottom: 30px;
     left: 600px;
+    right: 600px;
 }
 
 /* M2LO7 Here I used the attribute selector a href. This allowed me to set the color to black. I didnt like the purple color and I think this looks better. */
@@ -168,12 +180,18 @@ section#column2{
     width: 100%;
 }
 
+/* M3LO8B this relative allows me to base it off the right side and move it up and to the left */
 section#column1 img{
     float: right;
+    position: relative;
+    right: 150px;
+    top: -90px;
 }
 
 section#column2 img{
     float: left;
+    transform: rotate(-90deg);
+
 }
 
 /* M4LO6 Opacity */
@@ -200,9 +218,12 @@ img{
 
 figure{
     display: block;
+    width: 400px;
+    height: 400px;
 }
 
-figure > p{
-    background: gray;
-    
+figure > figcaption{
+    background: white;
+    color: gray;
+    text-align: center;
 }
