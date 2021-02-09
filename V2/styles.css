@@ -8,7 +8,7 @@ Assignment: V2
 Notes:
 */
 
-/* M3LO1 CSS Reset Style Rule */
+/* M3LO1 CSS Reset Style Rule this allows all my text to be displayed as blocks and align the text to the center*/
 a[href="https://www.youtube.com/channel/UCJjwVLFirUt6EZjWYdRGv4g"], .bop, nav a, ul, li, .c, .top, .bottom, footer{
     text-align: center;
     display: block;
@@ -20,7 +20,7 @@ In other parts of this code I use colors to enhance borders. */
 
 /* M3LO9 I fixed my background image because I dont want obsessive repeats its distracts from the content */
 
-/* M4LO2 Here I use a background image */
+/* M4LO2 Here I use a background image this allows my webage to have something else to look at. */
 html{
     height: 100%;
     background-image: url(https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg);
@@ -195,7 +195,7 @@ section#column2 img{
 
 }
 
-/* M4LO6 Opacity */
+/* M4LO6 Opacity allows me to make the image become more transparent and sets into the background*/
 img{
     display: block;
     height: 400px;
