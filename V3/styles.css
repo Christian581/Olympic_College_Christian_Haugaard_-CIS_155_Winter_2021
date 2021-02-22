@@ -19,6 +19,12 @@ html, body{
     html, body{
         background: linear-gradient(white, cornsilk, white);
     }
+
+    html{
+        background-image: url(https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg);
+        background-repeat: round;
+        background-attachment: fixed;
+    }
 }
 
 /* M3LO1 CSS Reset Style Rule this allows all my text to be displayed as blocks and align the text to the center*/
@@ -36,9 +42,6 @@ In other parts of this code I use colors to enhance borders. */
 /* M4LO2 Here I use a background image this allows my webage to have something else to look at. */
 html{
     height: 100%;
-    background-image: url(https://i.ytimg.com/vi/ofCoeqnOWAM/maxresdefault.jpg);
-    background-repeat: round;
-    background-attachment: fixed;
 }
 
 header{
@@ -118,7 +121,6 @@ nav a{
     width: 100%;
     color: white;
     text-decoration: none;
-    text-align: center;
 }
 
 /* M2LO11 Here I used a pseudo class selector to highlight the links on top I am hovering in turquoise. 
@@ -138,8 +140,9 @@ nav > ul > li{
 
 nav > ol > li{
     list-style-type: square;
-    margin-left: 250px;
+    margin-left: 150px;
     margin: 20px 20px 20px 20px;
+    text-align: left;
 }
 
 /* M2LO5 Here I made the nav a element in body align to the right side. I am matching the child to the parent elemeent. 
@@ -241,10 +244,32 @@ figure{
     display: block;
     width: 400px;
     height: 400px;
+    float: right;
+    position: relative;
+    top: -245px;
+
 }
 
 figure > figcaption{
     background: white;
     color: gray;
     text-align: center;
+}
+
+/* M6LO7 Here I moved the table over 125px and added borders, colors and background colors to the table.*/
+table{
+    margin-left: 125px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+th{
+    background-color: gray;
+    color: black;
+    border: 5px solid black;
+}
+
+td{
+    background-color: black;
+    color: white;
 }
