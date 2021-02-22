@@ -9,13 +9,13 @@ Notes:
 */
 
 /* M5LO3 Here I set a difference between PC and phone users. This allows phone users to read better on a small screen because the background is all one color and white*/
-@media handheld{
+@media all and (max-width: 800px){
 html, body{
     background-color: white;
 }
 }
 
-@media screen{
+@media all and (min-width: 800px){
     html, body{
         background: linear-gradient(white, cornsilk, white);
     }
