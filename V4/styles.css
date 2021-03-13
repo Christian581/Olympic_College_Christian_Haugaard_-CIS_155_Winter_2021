@@ -70,13 +70,13 @@ With CSS however I can pick which one I want. I typed in A and it let me auto co
 /* M2LO6 Here I set up a class for my heading. Since they all are h1's I made this h1 into a class and made a style rule for that class. 
 This saved me time then to set other to h2 or a different size. */
 
-/* M3LO8B This sets my heading to the left 45px I have no idea why my text align isnt working but this works so its fine */
+/* M3LO8B This sets my heading to the left 60px I have no idea why my text align isnt working but this works so its fine */
 .bop{
     text-align: center;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    right: 35px;
+    right: 60px;
 }
 
 
@@ -181,8 +181,8 @@ footer{
     color: black;
     position: absolute;
     bottom: 30px;
-    left: 600px;
-    right: 600px;
+    left: 500px;
+    right: 500px;
 }
 
 /* M2LO7 Here I used the attribute selector a href. This allowed me to set the color to black. I didnt like the purple color and I think this looks better. */
@@ -233,7 +233,7 @@ img{
 
 /* M3LO2 Floats to the left I set this section to display after the first one making this pop up next at the start. */
 /* M3LO3 Clear float waits till the section is clear then places the image */
-.pic2{
+.pic2, .pic3{
     float: left;
     margin-left: 150px;
     clear: left;
@@ -272,4 +272,36 @@ th{
 td{
     background-color: black;
     color: white;
+}
+/* Form area for Unit 8*/
+
+h1#formthing, input#submit{
+    margin-left: 40px;
+}
+
+label#one, label#two, label#three{
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+/* M7LO11 I treated the form as a block and pushed it right 125px I felt this gave it a nice look as the table was also over 125px */
+/* M8LO10 I used a transition on my survey that allowed the background to change colors while they are filling it out. I think this makes it look nice and I think it would be cool to see as you are filling it out. */
+form{
+    display: block;
+    margin-left: 125px;
+    margin-top: 40px;
+    background-color: wheat;
+    color: black;
+    width: 20%;
+    transition: background 6s;
+}
+
+form:hover{
+    background-color: thistle;
+}
+
+iframe{
+    float: right;
+    display: block;
+    position: relative;
+    right: 200px;
 }
